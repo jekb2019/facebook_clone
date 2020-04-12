@@ -1,0 +1,16 @@
+FB Logo
+<i class="fab fa-facebook-square"></i>
+Search Icon
+<i class="fas fa-search"></i>
+Friends
+<i class="fas fa-user-friends"></i>
+Messenger
+<i class="fab fa-facebook-messenger"></i>
+Notification
+<i class="fas fa-bell"></i>
+Account Switcher
+<i class="fas fa-user-circle"></i>
+Help
+<i class="fas fa-question-circle"></i>
+Down Arroe
+<i class="fas fa-caret-down"></i>
