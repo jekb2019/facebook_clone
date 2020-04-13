@@ -1,7 +1,7 @@
 FB Logo
-<i class="fab fa-facebook-square"></i>
+<i class="fa fa-facebook-square"></i>
 Search Icon
-<i class="fas fa-search"></i>
+<i class="fa fa-search"></i>
 Friends
 <i class="fas fa-user-friends"></i>
 Messenger

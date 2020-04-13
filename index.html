@@ -3,35 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Facebook</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="logo"></div>
-        <div class="search"></div>
-        <nav class="menu"></nav>
+        <div class="logo">
+            <i class="fa fa-facebook-square"></i>
+        </div>
+        <div class="search">
+            <input type="text">
+            <i class="fa fa-search"></i>
+        </div>
+        <nav class="text-menu">
+            <div class="my-page">
+                <img src="images/profile.jpg" alt="">
+                <span>Jason</span>
+            </div>
+            <div class="home">
+                <span>Home</span>
+            </div>
+            <div class="create">
+                <span>Create</span>
+            </div>
+        </nav>
+        <nav class="icon-menu">
+            <div>
+                <i class="fa fa-user-friends"></i>
+                <i class="fa fa-facebook-messenger"></i>
+                <i class="fa fa-bell"></i>
+            </div>
+        </nav>
+        <nav class="admin-menu">
+            <div>
+                <i class="fa fa-user-circle"></i>
+                <i class="fa fa-question-circle"></i>
+                <i class="fa fa-caret-down"></i>
+            </div>
+        </nav>
     </header>
-
+<!-- Side Bar -->
     <aside class="sidebar">
+        <!-- My-Profile Menu -->
         <nav class="my-fb">
-
+            <div class="my-profile">
+                <img src="images/profile.jpg" alt="">
+                <span>Jason Ko</span>
+            </div>
+            <div>
+                <ul>
+                    <li>News Feed</li>
+                    <li>Messanger</li>
+                    <li>Watch</li>
+                    <li>Marketplace</li>
+                </ul>
+            </div>
         </nav>
+        <!-- Shortcuts Menu -->
         <nav class="shortcuts">
-
+            <span class="title">Shortcuts</span>
+            <div>
+                <ul>
+                    <li>Facebook Game</li>
+                    <li>College Group</li>
+                    <li>University Group</li>
+                    <li>Close Friends</li>
+                </ul>
+            </div>
         </nav>
+        <!-- Explore menu -->
         <nav class="explore">
-
+            <span class="title">Explore</span>
+            <div>
+                <ul>
+                    <li>COVID-19 Information</li>
+                    <li>Buy and Sell</li>
+                </ul>
+            </div>
         </nav>
     </aside>
+    <!-- Timeline -->
     <section class="timeline">
+        <!-- Create Post -->
         <div class="create-post">
-
+            <div class="heading">
+                <span>Create Post</span>
+            </div>
+            <div class="content">
+                <img src="images/profile.jpg" alt="">
+                <form>
+                    <input type="text" name="" id="" placeholder="What's on your mind, Jason?">
+                </form>
+            </div>
+            <div class="clickables">
+                <button>Photo Video</button>
+                <button>Tag Friends</button>
+                <button>Play with Friends</button>
+                <button><i class="fa fa-ellipsis-h"></i></button>
+            </div>
         </div>
+        <!-- Stories -->
         <div class="stories">
-
+            <div class="header">
+                <span>Stories</span>
+                <span><a href="">See All</a></span>
+            </div>
+            <div class="story">
+                <img src="images/profile.jpg" alt="">
+                <span class="description">Add to Story</span>
+            </div>
+            <div class="story">
+                <img src="images/profile.jpg" alt="">
+                <span class="description">홍길동</span>
+            </div>
+            <div class="story">
+                <img src="images/profile.jpg" alt="">
+                <span class="description">어리니</span>
+            </div>
+            <div class="story">
+                <img src="images/profile.jpg" alt="">
+                <span class="description">아모개</span>
+            </div>
         </div>
-        <div class="contents">
-
+                <!-- ( 4/13일 여기까지 함 ) -->
+                
+        <!-- TImeline Contents-->
+        <div class="timeline-contents">
+            <div class="metadata"></div>
+            <div class="text"></div>
+            <div class="images"></div>
+            <div class="likeAndComment">
+            </div>
         </div>
     </section>
     <section class="advertisement">
