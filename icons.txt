@@ -3,14 +3,20 @@ FB Logo
 Search Icon
 <i class="fa fa-search"></i>
 Friends
-<i class="fas fa-user-friends"></i>
+<i class="fa fa-user-friends"></i>
 Messenger
-<i class="fab fa-facebook-messenger"></i>
+<i class="fa fa-facebook-messenger"></i>
 Notification
-<i class="fas fa-bell"></i>
+<i class="fa fa-bell"></i>
 Account Switcher
-<i class="fas fa-user-circle"></i>
+<i class="fa fa-user-circle"></i>
 Help
-<i class="fas fa-question-circle"></i>
+<i class="fa fa-question-circle"></i>
 Down Arroe
-<i class="fas fa-caret-down"></i>
+<i class="fa fa-caret-down"></i>
+Like
+<i class="fa fa-thumbs-up"></i>
+Comment
+<i class="fa fa-comment"></i>
+Share
+<i class="fa fa-share"></i>
