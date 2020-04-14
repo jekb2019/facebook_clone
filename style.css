@@ -1,0 +1,80 @@
+:root{
+    /* Color */
+    --white-color: #fff;
+    --fb-blue-color: #4267B2;
+    --dark-grey: #5E6673;
+    --light-grey: #F5F6F7;
+
+    /* Size */
+    --padding-micro: 8px;
+    --padding-small: 12px;
+    --padding-medium: 20px;
+    
+    --big-icon: 2.2em;
+    --small-icon: 1.3em;
+    --avatar-size: 36px;
+
+    /* Font Size */
+    --font-large: 18px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: var(--fb-blue-color);
+    padding: var(--padding-small);
+    display: flex;
+}
+header .search{
+    display: flex;
+}
+header .logo .fa{
+    color:var(--white-color);
+}
+header .fa-facebook-square{
+    font-size: var(--big-icon);
+    padding-right: var(--padding-small);
+}
+header .search{
+    height: 28px;
+}
+header .search input{
+    height: 100%;
+}
+header .search .search-icon{
+    height: 32px;
+    border: none;
+    margin-right:var(--padding-medium);
+}
+header .search .search-icon .fa-search{
+    font-size: var(--small-icon);
+    color:var(--dark-grey);
+    padding: 0 var(--padding-small) 0 var(--padding-small);
+    background-color: var(--light-grey);
+    line-height: 2;
+    height: 100%;
+}
+header .text-menu{
+    display: flex;
+}
+header .text-menu .image img{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+header .text-menu .top-nav span{
+    padding-right: var(--padding-medium);
+    padding-left: var(--padding-medium) ;
+    line-height: 1.7;
+    font-weight: bold;
+    font-size: var(--font-large);
+    color: var(--white-color);
+    border-right: 3px solid #3B5CA0;
+}
+header .icon-menu{
+
+}
