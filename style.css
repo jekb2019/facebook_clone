@@ -11,6 +11,7 @@
     --padding-medium: 20px;
     
     --big-icon: 2.2em;
+    --medium-icon:1.8em;
     --small-icon: 1.3em;
     --avatar-size: 36px;
 
@@ -24,13 +25,25 @@
     margin:0;
     padding:0;
 }
+#header-wrapper{
+    background-color: var(--fb-blue-color);
+    position: sticky;
+    top:0;
+}
 header{
     background-color: var(--fb-blue-color);
     padding: var(--padding-small);
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 header .search{
     display: flex;
+}
+header .logo{
+    flex-grow: 0;
 }
 header .logo .fa{
     color:var(--white-color);
@@ -41,9 +54,13 @@ header .fa-facebook-square{
 }
 header .search{
     height: 28px;
+    flex-grow: 5;
 }
 header .search input{
     height: 100%;
+    width: 100%;
+    min-width: 200px;
+    font-size: larger;
 }
 header .search .search-icon{
     height: 32px;
@@ -60,6 +77,8 @@ header .search .search-icon .fa-search{
 }
 header .text-menu{
     display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 0;
 }
 header .text-menu .image img{
     border-radius: 50%;
@@ -76,5 +95,28 @@ header .text-menu .top-nav span{
     border-right: 3px solid #3B5CA0;
 }
 header .icon-menu{
-
+    flex-grow: 0;
+}
+header .icon-menu div{
+    display: flex;
+    flex-wrap: nowrap;
+    border-right: 3px solid #3B5CA0;
+}
+header .icon-menu .fa{
+    font-size: var(--medium-icon);
+    padding-left: var(--padding-small);
+    padding-right: var(--padding-small);
+    color: #1A2947;
+}
+header .admin-menu{
+    flex-grow: 0;
+}
+header .admin-menu div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+header .admin-menu .fa{
+    font-size: var(--medium-icon);
+    padding-left: var(--padding-small);
+    color: #1A2947;
 }

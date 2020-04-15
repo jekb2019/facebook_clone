@@ -3,7 +3,7 @@ FB Logo
 Search Icon
 <i class="fa fa-search"></i>
 Friends
-<i class="fa fa-user-friends"></i>
+<i class="fa fa-users"></i>
 Messenger
 <i class="fa fa-facebook-messenger"></i>
 Notification
