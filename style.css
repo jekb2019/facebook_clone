@@ -25,19 +25,26 @@
     margin:0;
     padding:0;
 }
+body{
+    background-color: #E9EBEE;
+}
+/* HEADER */
 #header-wrapper{
     background-color: var(--fb-blue-color);
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top:0;
+    left: 0;
+    z-index: 10;
+    height: 60px;
 }
 header{
-    background-color: var(--fb-blue-color);
     padding: var(--padding-small);
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 header .search{
     display: flex;
@@ -119,4 +126,13 @@ header .admin-menu .fa{
     font-size: var(--medium-icon);
     padding-left: var(--padding-small);
     color: #1A2947;
+}
+
+/* CONTENT WRAPPER */
+#content-wrapper{
+    position: relative;
+    top:60px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
 }
